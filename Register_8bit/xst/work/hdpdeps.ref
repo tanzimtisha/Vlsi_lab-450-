@@ -1,0 +1,35 @@
+V3 23
+FL /home/ise/Register_8bit/D_flipflop.vhd 2026/09/21.19:20:49 P.20131013
+EN work/d_flip_flop 1790018488 FL /home/ise/Register_8bit/D_flipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/d_flip_flop/Structural 1790018489 \
+      FL /home/ise/Register_8bit/D_flipflop.vhd EN work/d_flip_flop 1790018488 \
+      CP d_latch CP not_gate
+FL /home/ise/Register_8bit/D_latch.vhd 2026/09/21.18:55:16 P.20131013
+EN work/d_latch 1790018486 FL /home/ise/Register_8bit/D_latch.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/d_latch/Structural 1790018487 \
+      FL /home/ise/Register_8bit/D_latch.vhd EN work/d_latch 1790018486 \
+      CP not_gate CP nand_gate CP sr_latch
+FL /home/ise/Register_8bit/Nand_gate.vhd 2026/09/21.18:09:47 P.20131013
+EN work/nand_gate 1790018482 FL /home/ise/Register_8bit/Nand_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nand_gate/Behavioral 1790018483 \
+      FL /home/ise/Register_8bit/Nand_gate.vhd EN work/nand_gate 1790018482
+FL /home/ise/Register_8bit/reg_1bit.vhd 2026/09/21.19:43:49 P.20131013
+EN work/register_1bit 1790022124 FL /home/ise/Register_8bit/reg_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/register_1bit/Structural 1790022125 \
+      FL /home/ise/Register_8bit/reg_1bit.vhd EN work/register_1bit 1790022124 \
+      CP master_slave_ff
+FL /home/ise/Register_8bit/reg_8bit.vhd 2026/09/21.20:12:49 P.20131013
+EN work/register_8bit 1790022207 FL /home/ise/Register_8bit/reg_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/register_8bit/Behavioral 1790022208 \
+      FL /home/ise/Register_8bit/reg_8bit.vhd EN work/register_8bit 1790022207
+FL /home/ise/Register_8bit/SR_Latch.vhd 2026/09/21.18:20:31 P.20131013
+EN work/sr_latch 1790018484 FL /home/ise/Register_8bit/SR_Latch.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sr_latch/Structural 1790018485 \
+      FL /home/ise/Register_8bit/SR_Latch.vhd EN work/sr_latch 1790018484 \
+      CP nand_gate

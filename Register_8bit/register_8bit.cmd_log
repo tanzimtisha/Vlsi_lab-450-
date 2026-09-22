@@ -1,0 +1,4 @@
+vhdtdtfi -lib work reg_8bit.vhd -prj Register_8bit -o register_8bit.spl -module register_8bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 -w register_8bit.spl /home/ise/Register_8bit/register_8bit.sym 
+vhdtdtfi -prj Register_8bit -o /home/ise/Register_8bit/register_8bit.tfi -module register_8bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work reg_8bit.vhd 
+xst -intstyle ise -ifn "/home/ise/Register_8bit/register_8bit.xst" -ofn "/home/ise/Register_8bit/register_8bit.syr" 

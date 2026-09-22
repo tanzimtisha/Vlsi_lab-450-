@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/adder_8/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/adder_8/xst"
+elaborate
+-ifn Add8.prj
+-ifmt mixed

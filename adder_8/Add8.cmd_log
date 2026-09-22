@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/adder_8/Add8.xst" -ofn "/home/ise/adder_8/Add8.syr" 
