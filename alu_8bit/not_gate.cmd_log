@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/alu_8bit/not_gate.xst" -ofn "/home/ise/alu_8bit/not_gate.syr" 
+xst -intstyle ise -ifn "/home/ise/alu_8bit/not_gate.xst" -ofn "/home/ise/alu_8bit/not_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 not_gate.ngc not_gate.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o not_gate_map.ncd not_gate.ngd not_gate.pcf 
+par -w -intstyle ise -ol high -mt off not_gate_map.ncd not_gate.ncd not_gate.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml not_gate.twx not_gate.ncd -o not_gate.twr not_gate.pcf 

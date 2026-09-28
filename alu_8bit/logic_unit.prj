@@ -1,0 +1,5 @@
+verilog work "xor_gate.v"
+verilog work "or_gate.v"
+verilog work "nor_gate.v"
+verilog work "and_gate.v"
+verilog work "logic_unit.v"
