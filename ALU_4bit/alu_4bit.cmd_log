@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/ALU_4bit/alu_4bit.xst" -ofn "/home/ise/ALU_4bit/alu_4bit.syr" 

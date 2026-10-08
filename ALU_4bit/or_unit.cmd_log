@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/ALU_4bit/or_unit.xst" -ofn "/home/ise/ALU_4bit/or_unit.syr" 
+xst -intstyle ise -ifn "/home/ise/ALU_4bit/or_unit.xst" -ofn "/home/ise/ALU_4bit/or_unit.syr" 
+xst -intstyle ise -ifn "/home/ise/ALU_4bit/or_unit.xst" -ofn "/home/ise/ALU_4bit/or_unit.syr" 

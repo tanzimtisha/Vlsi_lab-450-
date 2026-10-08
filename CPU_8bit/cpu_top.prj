@@ -1,0 +1,6 @@
+vhdl work "program_rom.vhd"
+vhdl work "Program_counter.vhd"
+vhdl work "cpu_registers.vhd"
+vhdl work "control_unit.vhd"
+vhdl work "alu_8bit.vhd"
+vhdl work "cpu_top.vhd"

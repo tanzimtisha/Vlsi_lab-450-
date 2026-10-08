@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Accumulator_4bit_lab_exam/adder_4bit.xst" -ofn "/home/ise/Accumulator_4bit_lab_exam/adder_4bit.syr" 

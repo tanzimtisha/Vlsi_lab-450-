@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/CPU_8bit/control_unit.xst" -ofn "/home/ise/CPU_8bit/control_unit.syr" 
+xst -intstyle ise -ifn "/home/ise/CPU_8bit/control_unit.xst" -ofn "/home/ise/CPU_8bit/control_unit.syr" 
+netgen -intstyle ise -ar Structure -tm control_unit -w -dir netgen/synthesis -ofmt vhdl -sim control_unit.ngc control_unit_synthesis.vhd 

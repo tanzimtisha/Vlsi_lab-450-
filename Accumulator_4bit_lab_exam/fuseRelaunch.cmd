@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Accumulator_4bit_lab_exam/tb_accumulator_4bit_isim_beh.exe" -prj "/home/ise/Accumulator_4bit_lab_exam/tb_accumulator_4bit_beh.prj" "work.tb_accumulator_4bit" 

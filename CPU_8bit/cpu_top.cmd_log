@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/CPU_8bit/cpu_top.xst" -ofn "/home/ise/CPU_8bit/cpu_top.syr" 
